@@ -1,0 +1,41 @@
+# Datasets, model checkpoints and other large files
+tennis-court-det-dataset
+models
+training/*.pt
+training/tennis-ball-detection-6/
+runs/
+*.pt
+
+# Python virtualenv
+tennis-computer-vision/
+
+# Env file
+.env
+
+# Intellij Idea configuration
+.idea/
+
+# Temp files
+*~
+*.un~
+.*.un~
+
+# MacOS metadata
+.DS_Store
+._*
+
+# Save file from editors
+*.bak
+*.swp
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Log files
+*.log
